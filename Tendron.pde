@@ -5,7 +5,7 @@ public void setup()
 }
 public void draw()
 {
-  background(0,0,0,10);
+  background(0);
   strokeWeight(2);
   Cluster c = new Cluster(60,mouseX,mouseY);
 }
